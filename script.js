@@ -1,3 +1,4 @@
+
 let currentQuestion = 1;
 
 function nextQuestion() {
@@ -44,7 +45,7 @@ function calculateResult() {
       imageUrl = 'https://picsum.photos/200/300';
     } else {
       result = 'Je bent sterk geassocieerd met GroenLinks.';
-      imageUrl = 'https://picsum.photos/200/300'; 
+      imageUrl = 'https://picsum.photos/200/300';
     }
 
     console.log(`Total Score: ${totalScore}`);
