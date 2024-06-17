@@ -20,6 +20,11 @@ body {
     color: #333;
 }
 
+.question {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
 header {
     background-color: #222;
     color: #fff;
@@ -52,6 +57,8 @@ h2 {
     color: #222;
 }
 
+/*generale styling voor de footer*/
+
 footer {
     text-align: center;
     padding: 10px 0;
@@ -77,6 +84,7 @@ footer {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/*Nav bar hover effects*/
 .topnav a:hover {
     background-color: #666;
     color: #fff;
@@ -121,6 +129,8 @@ a:hover {
     z-index: 1000;
 }
 
+/*css styling voor de custom loader toegepast aan elke webpagina */
+
 .loader {
     color: #b3a7a7;
     font-size: 100px;
@@ -133,6 +143,8 @@ a:hover {
     transform: translateZ(0);
     animation: mltShdSpin 1.7s infinite ease, round 1.7s infinite ease;
 }
+
+/*keyframes voor de bewegend animatie voor de loader*/
 
 @keyframes mltShdSpin {
     0% {
@@ -173,6 +185,8 @@ a:hover {
     }
 }
 
+/*keyframes voor de vorm van de loader  */
+
 @keyframes round {
     0% {
         transform: rotate(0deg)
@@ -183,15 +197,17 @@ a:hover {
     }
 }
 
+/*styling voor de button in de table*/
+
 .button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 6px 14px;
     font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
     border-radius: 6px;
     border: none;
-
     background: #6E6D70;
     box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
     color: #DFDEDF;
@@ -203,4 +219,9 @@ a:hover {
 .button:focus {
     box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
     outline: 0;
+}
+
+.test {
+    font-size: 35px;
+    text-align: center;
 }
